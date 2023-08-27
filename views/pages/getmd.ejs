@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>File Metadata Microservice</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+        
+    </head>
+    <body>
+        <!-- Include the navigation bar -->
+        <div class="topcontainer">
+            <%- include('navbar') %>
+
+            <h2 class="textcenter">Submit a file or file link to view its Metadata.</h2>
+            <div class="center">
+                <div>
+                    <form id="uploadFile" action="/" method="post" enctype="multipart/form-data">
+                        <!-- File Link Input -->
+                        <input name="uploadedFile" type="file" id="fileInput" accept="*"/>
+                        <label for="fileInput"><span>Choose a file</span><img src="./upload.png" alt="..."/></label>
+    
+                        <h3>OR</h3>
+    
+                        <!-- File Link Input -->
+                        <div class="fileLink">
+                            <input type="text" name="fileLink" id="fileLink" placeholder="Enter file link..." size="40"/>
+                        </div>
+    
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+    
+        </div>
+
+        <script type="text/javascript" src="/fileInput.js"></script>
+        
+    </body>
+</html>
