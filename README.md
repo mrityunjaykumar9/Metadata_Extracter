@@ -42,8 +42,6 @@ To use the Metadata Extraction Tool, follow these installation steps:
 
 ## Usage
 
-![image](https://drive.google.com/file/d/1i6OckdI3cSuXgFAwZ5zYlj1hb-JOWa4c/view?usp=sharing)
-
 ### To use this tool, users simply need to:
 
 - Upload a file from their device.
